@@ -1,0 +1,46 @@
+{
+  "schemaNamespace" : "Heroku",
+  "input" : {
+    "operationSearchPaths" : [
+      "**/*.graphql"
+    ],
+    "schemaSearchPaths" : [
+      "**/*.graphqls"
+    ]
+  },
+  "output" : {
+    "testMocks" : {
+      "none" : {
+      }
+    },
+    "schemaTypes" : {
+      "path" : "./Heroku",
+      "moduleType" : {
+        "embeddedInTarget" : {
+          "name" : "GraphQLwithApolloSWAPI",
+          "accessModifier": "internal"
+        }
+      }
+    },
+    "operations" : {
+      "inSchemaModule" : {
+      }
+    }
+  },
+  "schemaDownloadConfiguration": {
+     "downloadMethod": {
+       "introspection": {
+         "endpointURL": "https://apollo-fullstack-tutorial.herokuapp.com/graphql",
+         "httpMethod": {
+           "POST": {}
+         },
+         "includeDeprecatedInputValues": false,
+         "outputFormat": "SDL"
+       }
+     },
+     "downloadTimeout": 60,
+     "headers": [],
+     "outputPath": "./graphql/schema.graphqls"
+   }
+ 
+}

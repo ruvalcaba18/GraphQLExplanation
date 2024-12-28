@@ -1,0 +1,14 @@
+Target dependency graph (6 targets)
+Target 'GraphQLwithApolloSWAPI' in project 'GraphQLwithApolloSWAPI'
+➜ Explicit dependency on target 'Apollo' in project 'Apollo'
+Target 'Apollo' in project 'Apollo'
+➜ Explicit dependency on target 'Apollo' in project 'Apollo'
+➜ Explicit dependency on target 'Apollo_Apollo' in project 'Apollo'
+➜ Explicit dependency on target 'ApolloAPI' in project 'Apollo'
+Target 'Apollo' in project 'Apollo'
+➜ Explicit dependency on target 'Apollo_Apollo' in project 'Apollo'
+➜ Explicit dependency on target 'ApolloAPI' in project 'Apollo'
+Target 'ApolloAPI' in project 'Apollo'
+➜ Explicit dependency on target 'Apollo_ApolloAPI' in project 'Apollo'
+Target 'Apollo_ApolloAPI' in project 'Apollo' (no dependencies)
+Target 'Apollo_Apollo' in project 'Apollo' (no dependencies)

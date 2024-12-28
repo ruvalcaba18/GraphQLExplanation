@@ -1,0 +1,44 @@
+
+
+query LaunchList {
+  me {
+    email
+    id
+    profileImage
+    token
+    trips {
+      id
+      isBooked
+      mission {
+        missionPatch
+        name
+      }
+      rocket {
+        id
+        name
+        type
+      }
+      site
+    }
+  }
+  launches {
+    hasMore
+    launches {
+      id
+      isBooked
+      mission {
+        missionPatch
+        name
+      }
+      rocket {
+        id
+        name
+        type
+      }
+      site
+    }
+    cursor
+  }
+ 
+  totalTripsBooked
+}

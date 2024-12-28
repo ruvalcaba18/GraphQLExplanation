@@ -1,0 +1,4 @@
+module Apollo {
+header "Apollo-Swift.h"
+export *
+}

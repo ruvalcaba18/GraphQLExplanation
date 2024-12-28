@@ -1,0 +1,35 @@
+{
+  "" : {
+    "const-values" : "/Users/jaelruvalcaba/Desktop/GraphQLwithApolloSWAPI/build/GraphQLwithApolloSWAPI.build/Release-iphoneos/GraphQLwithApolloSWAPI.build/Objects-normal/arm64/GraphQLwithApolloSWAPI-master.swiftconstvalues",
+    "dependencies" : "/Users/jaelruvalcaba/Desktop/GraphQLwithApolloSWAPI/build/GraphQLwithApolloSWAPI.build/Release-iphoneos/GraphQLwithApolloSWAPI.build/Objects-normal/arm64/GraphQLwithApolloSWAPI-master.d",
+    "diagnostics" : "/Users/jaelruvalcaba/Desktop/GraphQLwithApolloSWAPI/build/GraphQLwithApolloSWAPI.build/Release-iphoneos/GraphQLwithApolloSWAPI.build/Objects-normal/arm64/GraphQLwithApolloSWAPI-master.dia",
+    "emit-module-dependencies" : "/Users/jaelruvalcaba/Desktop/GraphQLwithApolloSWAPI/build/GraphQLwithApolloSWAPI.build/Release-iphoneos/GraphQLwithApolloSWAPI.build/Objects-normal/arm64/GraphQLwithApolloSWAPI-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/jaelruvalcaba/Desktop/GraphQLwithApolloSWAPI/build/GraphQLwithApolloSWAPI.build/Release-iphoneos/GraphQLwithApolloSWAPI.build/Objects-normal/arm64/GraphQLwithApolloSWAPI-master-emit-module.dia",
+    "swift-dependencies" : "/Users/jaelruvalcaba/Desktop/GraphQLwithApolloSWAPI/build/GraphQLwithApolloSWAPI.build/Release-iphoneos/GraphQLwithApolloSWAPI.build/Objects-normal/arm64/GraphQLwithApolloSWAPI-master.swiftdeps"
+  },
+  "/Users/jaelruvalcaba/Desktop/GraphQLwithApolloSWAPI/GraphQLwithApolloSWAPI/ContentView.swift" : {
+    "index-unit-output-path" : "/GraphQLwithApolloSWAPI.build/Release-iphoneos/GraphQLwithApolloSWAPI.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/jaelruvalcaba/Desktop/GraphQLwithApolloSWAPI/build/GraphQLwithApolloSWAPI.build/Release-iphoneos/GraphQLwithApolloSWAPI.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/jaelruvalcaba/Desktop/GraphQLwithApolloSWAPI/build/GraphQLwithApolloSWAPI.build/Release-iphoneos/GraphQLwithApolloSWAPI.build/Objects-normal/arm64/ContentView.o"
+  },
+  "/Users/jaelruvalcaba/Desktop/GraphQLwithApolloSWAPI/GraphQLwithApolloSWAPI/GraphQL/API.swift" : {
+    "index-unit-output-path" : "/GraphQLwithApolloSWAPI.build/Release-iphoneos/GraphQLwithApolloSWAPI.build/Objects-normal/arm64/API.o",
+    "llvm-bc" : "/Users/jaelruvalcaba/Desktop/GraphQLwithApolloSWAPI/build/GraphQLwithApolloSWAPI.build/Release-iphoneos/GraphQLwithApolloSWAPI.build/Objects-normal/arm64/API.bc",
+    "object" : "/Users/jaelruvalcaba/Desktop/GraphQLwithApolloSWAPI/build/GraphQLwithApolloSWAPI.build/Release-iphoneos/GraphQLwithApolloSWAPI.build/Objects-normal/arm64/API.o"
+  },
+  "/Users/jaelruvalcaba/Desktop/GraphQLwithApolloSWAPI/GraphQLwithApolloSWAPI/GraphQL/Apollo.swift" : {
+    "index-unit-output-path" : "/GraphQLwithApolloSWAPI.build/Release-iphoneos/GraphQLwithApolloSWAPI.build/Objects-normal/arm64/Apollo.o",
+    "llvm-bc" : "/Users/jaelruvalcaba/Desktop/GraphQLwithApolloSWAPI/build/GraphQLwithApolloSWAPI.build/Release-iphoneos/GraphQLwithApolloSWAPI.build/Objects-normal/arm64/Apollo.bc",
+    "object" : "/Users/jaelruvalcaba/Desktop/GraphQLwithApolloSWAPI/build/GraphQLwithApolloSWAPI.build/Release-iphoneos/GraphQLwithApolloSWAPI.build/Objects-normal/arm64/Apollo.o"
+  },
+  "/Users/jaelruvalcaba/Desktop/GraphQLwithApolloSWAPI/GraphQLwithApolloSWAPI/GraphQLwithApolloSWAPIApp.swift" : {
+    "index-unit-output-path" : "/GraphQLwithApolloSWAPI.build/Release-iphoneos/GraphQLwithApolloSWAPI.build/Objects-normal/arm64/GraphQLwithApolloSWAPIApp.o",
+    "llvm-bc" : "/Users/jaelruvalcaba/Desktop/GraphQLwithApolloSWAPI/build/GraphQLwithApolloSWAPI.build/Release-iphoneos/GraphQLwithApolloSWAPI.build/Objects-normal/arm64/GraphQLwithApolloSWAPIApp.bc",
+    "object" : "/Users/jaelruvalcaba/Desktop/GraphQLwithApolloSWAPI/build/GraphQLwithApolloSWAPI.build/Release-iphoneos/GraphQLwithApolloSWAPI.build/Objects-normal/arm64/GraphQLwithApolloSWAPIApp.o"
+  },
+  "/Users/jaelruvalcaba/Desktop/GraphQLwithApolloSWAPI/build/GraphQLwithApolloSWAPI.build/Release-iphoneos/GraphQLwithApolloSWAPI.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/GraphQLwithApolloSWAPI.build/Release-iphoneos/GraphQLwithApolloSWAPI.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/jaelruvalcaba/Desktop/GraphQLwithApolloSWAPI/build/GraphQLwithApolloSWAPI.build/Release-iphoneos/GraphQLwithApolloSWAPI.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/jaelruvalcaba/Desktop/GraphQLwithApolloSWAPI/build/GraphQLwithApolloSWAPI.build/Release-iphoneos/GraphQLwithApolloSWAPI.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "" : {
+    "const-values" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/ApolloAPI-master.swiftconstvalues",
+    "dependencies" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/ApolloAPI-master.d",
+    "diagnostics" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/ApolloAPI-master.dia",
+    "emit-module-dependencies" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/ApolloAPI-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/ApolloAPI-master-emit-module.dia",
+    "swift-dependencies" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/ApolloAPI-master.swiftdeps"
+  },
+  "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/Sources/ApolloAPI/AnyHashableConvertible.swift" : {
+    "index-unit-output-path" : "/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/AnyHashableConvertible.o",
+    "llvm-bc" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/AnyHashableConvertible.bc",
+    "object" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/AnyHashableConvertible.o"
+  },
+  "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/Sources/ApolloAPI/CacheKeyInfo.swift" : {
+    "index-unit-output-path" : "/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/CacheKeyInfo.o",
+    "llvm-bc" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/CacheKeyInfo.bc",
+    "object" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/CacheKeyInfo.o"
+  },
+  "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/Sources/ApolloAPI/CacheReference.swift" : {
+    "index-unit-output-path" : "/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/CacheReference.o",
+    "llvm-bc" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/CacheReference.bc",
+    "object" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/CacheReference.o"
+  },
+  "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/Sources/ApolloAPI/DataDict.swift" : {
+    "index-unit-output-path" : "/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/DataDict.o",
+    "llvm-bc" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/DataDict.bc",
+    "object" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/DataDict.o"
+  },
+  "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/Sources/ApolloAPI/Deferred.swift" : {
+    "index-unit-output-path" : "/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/Deferred.o",
+    "llvm-bc" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/Deferred.bc",
+    "object" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/Deferred.o"
+  },
+  "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/Sources/ApolloAPI/FragmentProtocols.swift" : {
+    "index-unit-output-path" : "/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/FragmentProtocols.o",
+    "llvm-bc" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/FragmentProtocols.bc",
+    "object" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/FragmentProtocols.o"
+  },
+  "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/Sources/ApolloAPI/GraphQLEnum.swift" : {
+    "index-unit-output-path" : "/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/GraphQLEnum.o",
+    "llvm-bc" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/GraphQLEnum.bc",
+    "object" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/GraphQLEnum.o"
+  },
+  "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/Sources/ApolloAPI/GraphQLNullable.swift" : {
+    "index-unit-output-path" : "/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/GraphQLNullable.o",
+    "llvm-bc" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/GraphQLNullable.bc",
+    "object" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/GraphQLNullable.o"
+  },
+  "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/Sources/ApolloAPI/GraphQLOperation.swift" : {
+    "index-unit-output-path" : "/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/GraphQLOperation.o",
+    "llvm-bc" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/GraphQLOperation.bc",
+    "object" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/GraphQLOperation.o"
+  },
+  "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/Sources/ApolloAPI/InputValue.swift" : {
+    "index-unit-output-path" : "/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/InputValue.o",
+    "llvm-bc" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/InputValue.bc",
+    "object" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/InputValue.o"
+  },
+  "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/Sources/ApolloAPI/JSON.swift" : {
+    "index-unit-output-path" : "/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/JSON.o",
+    "llvm-bc" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/JSON.bc",
+    "object" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/JSON.o"
+  },
+  "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/Sources/ApolloAPI/JSONDecodingError.swift" : {
+    "index-unit-output-path" : "/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/JSONDecodingError.o",
+    "llvm-bc" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/JSONDecodingError.bc",
+    "object" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/JSONDecodingError.o"
+  },
+  "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/Sources/ApolloAPI/JSONStandardTypeConversions.swift" : {
+    "index-unit-output-path" : "/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/JSONStandardTypeConversions.o",
+    "llvm-bc" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/JSONStandardTypeConversions.bc",
+    "object" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/JSONStandardTypeConversions.o"
+  },
+  "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/Sources/ApolloAPI/LocalCacheMutation.swift" : {
+    "index-unit-output-path" : "/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/LocalCacheMutation.o",
+    "llvm-bc" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/LocalCacheMutation.bc",
+    "object" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/LocalCacheMutation.o"
+  },
+  "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/Sources/ApolloAPI/ObjectData.swift" : {
+    "index-unit-output-path" : "/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/ObjectData.o",
+    "llvm-bc" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/ObjectData.bc",
+    "object" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/ObjectData.o"
+  },
+  "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/Sources/ApolloAPI/OutputTypeConvertible.swift" : {
+    "index-unit-output-path" : "/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/OutputTypeConvertible.o",
+    "llvm-bc" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/OutputTypeConvertible.bc",
+    "object" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/OutputTypeConvertible.o"
+  },
+  "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/Sources/ApolloAPI/ParentType.swift" : {
+    "index-unit-output-path" : "/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/ParentType.o",
+    "llvm-bc" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/ParentType.bc",
+    "object" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/ParentType.o"
+  },
+  "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/Sources/ApolloAPI/ScalarTypes.swift" : {
+    "index-unit-output-path" : "/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/ScalarTypes.o",
+    "llvm-bc" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/ScalarTypes.bc",
+    "object" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/ScalarTypes.o"
+  },
+  "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/Sources/ApolloAPI/SchemaConfiguration.swift" : {
+    "index-unit-output-path" : "/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/SchemaConfiguration.o",
+    "llvm-bc" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/SchemaConfiguration.bc",
+    "object" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/SchemaConfiguration.o"
+  },
+  "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/Sources/ApolloAPI/SchemaMetadata.swift" : {
+    "index-unit-output-path" : "/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/SchemaMetadata.o",
+    "llvm-bc" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/SchemaMetadata.bc",
+    "object" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/SchemaMetadata.o"
+  },
+  "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/Sources/ApolloAPI/SchemaTypes/EnumType.swift" : {
+    "index-unit-output-path" : "/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/EnumType.o",
+    "llvm-bc" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/EnumType.bc",
+    "object" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/EnumType.o"
+  },
+  "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/Sources/ApolloAPI/SchemaTypes/InputObject.swift" : {
+    "index-unit-output-path" : "/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/InputObject.o",
+    "llvm-bc" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/InputObject.bc",
+    "object" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/InputObject.o"
+  },
+  "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/Sources/ApolloAPI/SchemaTypes/Interface.swift" : {
+    "index-unit-output-path" : "/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/Interface.o",
+    "llvm-bc" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/Interface.bc",
+    "object" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/Interface.o"
+  },
+  "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/Sources/ApolloAPI/SchemaTypes/Object.swift" : {
+    "index-unit-output-path" : "/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/Object.o",
+    "llvm-bc" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/Object.bc",
+    "object" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/Object.o"
+  },
+  "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/Sources/ApolloAPI/SchemaTypes/Union.swift" : {
+    "index-unit-output-path" : "/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/Union.o",
+    "llvm-bc" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/Union.bc",
+    "object" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/Union.o"
+  },
+  "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/Sources/ApolloAPI/Selection+Conditions.swift" : {
+    "index-unit-output-path" : "/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/Selection+Conditions.o",
+    "llvm-bc" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/Selection+Conditions.bc",
+    "object" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/Selection+Conditions.o"
+  },
+  "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/Sources/ApolloAPI/Selection.swift" : {
+    "index-unit-output-path" : "/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/Selection.o",
+    "llvm-bc" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/Selection.bc",
+    "object" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/Selection.o"
+  },
+  "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/Sources/ApolloAPI/SelectionSet.swift" : {
+    "index-unit-output-path" : "/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/SelectionSet.o",
+    "llvm-bc" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/SelectionSet.bc",
+    "object" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/SelectionSet.o"
+  },
+  "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/DerivedSources/resource_bundle_accessor.swift" : {
+    "index-unit-output-path" : "/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/resource_bundle_accessor.o",
+    "llvm-bc" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/resource_bundle_accessor.bc",
+    "object" : "/Users/jaelruvalcaba/Library/Developer/Xcode/DerivedData/GraphQLwithApolloSWAPI-fcnjinlmtfwnefgmfymonjiytfwd/SourcePackages/checkouts/apollo-ios/build/Apollo.build/Release-iphoneos/ApolloAPI.build/Objects-normal/arm64/resource_bundle_accessor.o"
+  }
+}

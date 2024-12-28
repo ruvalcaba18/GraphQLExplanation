@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B18E2B22D0252CA0096950D /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 2B18E2B12D0252CA0096950D /* Apollo */; };
+		2B18E2B42D0252CA0096950D /* ApolloSQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 2B18E2B32D0252CA0096950D /* ApolloSQLite */; };
+		2B18E2B62D0252CA0096950D /* ApolloTestSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 2B18E2B52D0252CA0096950D /* ApolloTestSupport */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B18E25F2D0246160096950D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B18E2462D0246150096950D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B18E24D2D0246150096950D;
+			remoteInfo = GraphQLwithApolloSWAPI;
+		};
+		2B18E2692D0246160096950D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B18E2462D0246150096950D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B18E24D2D0246150096950D;
+			remoteInfo = GraphQLwithApolloSWAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B18E24E2D0246150096950D /* GraphQLwithApolloSWAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphQLwithApolloSWAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B18E25E2D0246160096950D /* GraphQLwithApolloSWAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphQLwithApolloSWAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B18E2682D0246160096950D /* GraphQLwithApolloSWAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphQLwithApolloSWAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2B18E2502D0246150096950D /* GraphQLwithApolloSWAPI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GraphQLwithApolloSWAPI;
+			sourceTree = "<group>";
+		};
+		2B18E2612D0246160096950D /* GraphQLwithApolloSWAPITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GraphQLwithApolloSWAPITests;
+			sourceTree = "<group>";
+		};
+		2B18E26B2D0246160096950D /* GraphQLwithApolloSWAPIUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GraphQLwithApolloSWAPIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B18E24B2D0246150096950D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B18E2B62D0252CA0096950D /* ApolloTestSupport in Frameworks */,
+				2B18E2B22D0252CA0096950D /* Apollo in Frameworks */,
+				2B18E2B42D0252CA0096950D /* ApolloSQLite in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B18E25B2D0246160096950D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B18E2652D0246160096950D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B18E2452D0246150096950D = {
+			isa = PBXGroup;
+			children = (
+				2B18E2502D0246150096950D /* GraphQLwithApolloSWAPI */,
+				2B18E2612D0246160096950D /* GraphQLwithApolloSWAPITests */,
+				2B18E26B2D0246160096950D /* GraphQLwithApolloSWAPIUITests */,
+				2B18E2AD2D0252870096950D /* Frameworks */,
+				2B18E24F2D0246150096950D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B18E24F2D0246150096950D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B18E24E2D0246150096950D /* GraphQLwithApolloSWAPI.app */,
+				2B18E25E2D0246160096950D /* GraphQLwithApolloSWAPITests.xctest */,
+				2B18E2682D0246160096950D /* GraphQLwithApolloSWAPIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B18E2AD2D0252870096950D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B18E24D2D0246150096950D /* GraphQLwithApolloSWAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B18E2722D0246160096950D /* Build configuration list for PBXNativeTarget "GraphQLwithApolloSWAPI" */;
+			buildPhases = (
+				2B18E24A2D0246150096950D /* Sources */,
+				2B18E24B2D0246150096950D /* Frameworks */,
+				2B18E24C2D0246150096950D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2B18E2502D0246150096950D /* GraphQLwithApolloSWAPI */,
+			);
+			name = GraphQLwithApolloSWAPI;
+			packageProductDependencies = (
+				2B18E2B12D0252CA0096950D /* Apollo */,
+				2B18E2B32D0252CA0096950D /* ApolloSQLite */,
+				2B18E2B52D0252CA0096950D /* ApolloTestSupport */,
+			);
+			productName = GraphQLwithApolloSWAPI;
+			productReference = 2B18E24E2D0246150096950D /* GraphQLwithApolloSWAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B18E25D2D0246160096950D /* GraphQLwithApolloSWAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B18E2752D0246160096950D /* Build configuration list for PBXNativeTarget "GraphQLwithApolloSWAPITests" */;
+			buildPhases = (
+				2B18E25A2D0246160096950D /* Sources */,
+				2B18E25B2D0246160096950D /* Frameworks */,
+				2B18E25C2D0246160096950D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B18E2602D0246160096950D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2B18E2612D0246160096950D /* GraphQLwithApolloSWAPITests */,
+			);
+			name = GraphQLwithApolloSWAPITests;
+			packageProductDependencies = (
+			);
+			productName = GraphQLwithApolloSWAPITests;
+			productReference = 2B18E25E2D0246160096950D /* GraphQLwithApolloSWAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B18E2672D0246160096950D /* GraphQLwithApolloSWAPIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B18E2782D0246160096950D /* Build configuration list for PBXNativeTarget "GraphQLwithApolloSWAPIUITests" */;
+			buildPhases = (
+				2B18E2642D0246160096950D /* Sources */,
+				2B18E2652D0246160096950D /* Frameworks */,
+				2B18E2662D0246160096950D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B18E26A2D0246160096950D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2B18E26B2D0246160096950D /* GraphQLwithApolloSWAPIUITests */,
+			);
+			name = GraphQLwithApolloSWAPIUITests;
+			packageProductDependencies = (
+			);
+			productName = GraphQLwithApolloSWAPIUITests;
+			productReference = 2B18E2682D0246160096950D /* GraphQLwithApolloSWAPIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B18E2462D0246150096950D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					2B18E24D2D0246150096950D = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					2B18E25D2D0246160096950D = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 2B18E24D2D0246150096950D;
+					};
+					2B18E2672D0246160096950D = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 2B18E24D2D0246150096950D;
+					};
+				};
+			};
+			buildConfigurationList = 2B18E2492D0246150096950D /* Build configuration list for PBXProject "GraphQLwithApolloSWAPI" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B18E2452D0246150096950D;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2B18E2B02D0252CA0096950D /* XCRemoteSwiftPackageReference "apollo-ios" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2B18E24F2D0246150096950D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B18E24D2D0246150096950D /* GraphQLwithApolloSWAPI */,
+				2B18E25D2D0246160096950D /* GraphQLwithApolloSWAPITests */,
+				2B18E2672D0246160096950D /* GraphQLwithApolloSWAPIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B18E24C2D0246150096950D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B18E25C2D0246160096950D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B18E2662D0246160096950D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B18E24A2D0246150096950D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B18E25A2D0246160096950D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B18E2642D0246160096950D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B18E2602D0246160096950D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B18E24D2D0246150096950D /* GraphQLwithApolloSWAPI */;
+			targetProxy = 2B18E25F2D0246160096950D /* PBXContainerItemProxy */;
+		};
+		2B18E26A2D0246160096950D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B18E24D2D0246150096950D /* GraphQLwithApolloSWAPI */;
+			targetProxy = 2B18E2692D0246160096950D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B18E2702D0246160096950D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B18E2712D0246160096950D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B18E2732D0246160096950D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GraphQLwithApolloSWAPI/Preview Content\"";
+				DEVELOPMENT_TEAM = J58ZDFPQ77;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jael.GraphQLwithApolloSWAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B18E2742D0246160096950D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GraphQLwithApolloSWAPI/Preview Content\"";
+				DEVELOPMENT_TEAM = J58ZDFPQ77;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jael.GraphQLwithApolloSWAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2B18E2762D0246160096950D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J58ZDFPQ77;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jael.GraphQLwithApolloSWAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraphQLwithApolloSWAPI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GraphQLwithApolloSWAPI";
+			};
+			name = Debug;
+		};
+		2B18E2772D0246160096950D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J58ZDFPQ77;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jael.GraphQLwithApolloSWAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraphQLwithApolloSWAPI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GraphQLwithApolloSWAPI";
+			};
+			name = Release;
+		};
+		2B18E2792D0246160096950D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J58ZDFPQ77;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jael.GraphQLwithApolloSWAPIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GraphQLwithApolloSWAPI;
+			};
+			name = Debug;
+		};
+		2B18E27A2D0246160096950D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J58ZDFPQ77;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jael.GraphQLwithApolloSWAPIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GraphQLwithApolloSWAPI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B18E2492D0246150096950D /* Build configuration list for PBXProject "GraphQLwithApolloSWAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B18E2702D0246160096950D /* Debug */,
+				2B18E2712D0246160096950D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B18E2722D0246160096950D /* Build configuration list for PBXNativeTarget "GraphQLwithApolloSWAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B18E2732D0246160096950D /* Debug */,
+				2B18E2742D0246160096950D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B18E2752D0246160096950D /* Build configuration list for PBXNativeTarget "GraphQLwithApolloSWAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B18E2762D0246160096950D /* Debug */,
+				2B18E2772D0246160096950D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B18E2782D0246160096950D /* Build configuration list for PBXNativeTarget "GraphQLwithApolloSWAPIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B18E2792D0246160096950D /* Debug */,
+				2B18E27A2D0246160096950D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2B18E2B02D0252CA0096950D /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.15.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2B18E2B12D0252CA0096950D /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B18E2B02D0252CA0096950D /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		2B18E2B32D0252CA0096950D /* ApolloSQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B18E2B02D0252CA0096950D /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloSQLite;
+		};
+		2B18E2B52D0252CA0096950D /* ApolloTestSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B18E2B02D0252CA0096950D /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloTestSupport;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2B18E2462D0246150096950D /* Project object */;
+}
