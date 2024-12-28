@@ -10,7 +10,8 @@ import Apollo
 
 final class StarWarsInformationViewModel:ObservableObject {
     
-    private(set) var filmsToDisplay: [Heroku.ExampleQuery.Data.Launches] = []
+    private(set) var filmsToDisplay: [Heroku.ExampleQuery.Data.Launches.Launch?] = []
+    
     init() {
         Network.shared.client.fetch(query: Heroku.ExampleQuery()) { [weak self] result in
             guard let self = self else {return }
@@ -18,8 +19,8 @@ final class StarWarsInformationViewModel:ObservableObject {
                 
             case .success(let graphQLResult):
              
-                let resultado = graphQLResult.data?.launches
-                self.filmsToDisplay.append( resultado!)
+                let resultado = graphQLResult.data?.launches.launches
+                self.filmsToDisplay.append( contentsOf: resultado!)
                 print("Succes result \(resultado )")
             case .failure(let error):
                 print("we have an error \(error.localizedDescription)")
