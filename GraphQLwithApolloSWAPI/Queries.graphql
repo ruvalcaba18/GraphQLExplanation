@@ -1,24 +1,37 @@
 
 
-query LaunchList {
+fragment smallRocker on Rocket {
+         id
+        name
+        type
+}
+
+fragment missions on Mission {
+       missionPatch
+        name
+}
+
+fragment trips on Launch{
+      id
+      isBooked
+      mission {
+        ...missions
+      }
+      rocket {
+        ...smallRocker
+      }
+      site
+}
+
+query ExampleQuery {
+  
   me {
     email
     id
     profileImage
     token
     trips {
-      id
-      isBooked
-      mission {
-        missionPatch
-        name
-      }
-      rocket {
-        id
-        name
-        type
-      }
-      site
+      ...trips
     }
   }
   launches {
@@ -27,13 +40,10 @@ query LaunchList {
       id
       isBooked
       mission {
-        missionPatch
-        name
+        ...missions
       }
       rocket {
-        id
-        name
-        type
+        ...smallRocker
       }
       site
     }

@@ -4,11 +4,12 @@
 @_exported import ApolloAPI
 
 extension Heroku {
-  class LaunchListQuery: GraphQLQuery {
-    static let operationName: String = "LaunchList"
+  class ExampleQuery: GraphQLQuery {
+    static let operationName: String = "ExampleQuery"
     static let operationDocument: ApolloAPI.OperationDocument = .init(
       definition: .init(
-        #"query LaunchList { me { __typename email id profileImage token trips { __typename id isBooked mission { __typename missionPatch name } rocket { __typename id name type } site } } launches { __typename hasMore launches { __typename id isBooked mission { __typename missionPatch name } rocket { __typename id name type } site } cursor } totalTripsBooked }"#
+        #"query ExampleQuery { me { __typename email id profileImage token trips { __typename ...trips } } launches { __typename hasMore launches { __typename id isBooked mission { __typename ...missions } rocket { __typename ...smallRocker } site } cursor } totalTripsBooked }"#,
+        fragments: [Missions.self, SmallRocker.self, Trips.self]
       ))
 
     public init() {}
@@ -61,11 +62,7 @@ extension Heroku {
           static var __parentType: any ApolloAPI.ParentType { Heroku.Objects.Launch }
           static var __selections: [ApolloAPI.Selection] { [
             .field("__typename", String.self),
-            .field("id", Heroku.ID.self),
-            .field("isBooked", Bool.self),
-            .field("mission", Mission?.self),
-            .field("rocket", Rocket?.self),
-            .field("site", String?.self),
+            .fragment(Trips.self),
           ] }
 
           var id: Heroku.ID { __data["id"] }
@@ -74,43 +71,16 @@ extension Heroku {
           var rocket: Rocket? { __data["rocket"] }
           var site: String? { __data["site"] }
 
-          /// Me.Trip.Mission
-          ///
-          /// Parent Type: `Mission`
-          struct Mission: Heroku.SelectionSet {
+          struct Fragments: FragmentContainer {
             let __data: DataDict
             init(_dataDict: DataDict) { __data = _dataDict }
 
-            static var __parentType: any ApolloAPI.ParentType { Heroku.Objects.Mission }
-            static var __selections: [ApolloAPI.Selection] { [
-              .field("__typename", String.self),
-              .field("missionPatch", String?.self),
-              .field("name", String?.self),
-            ] }
-
-            var missionPatch: String? { __data["missionPatch"] }
-            var name: String? { __data["name"] }
+            var trips: Trips { _toFragment() }
           }
 
-          /// Me.Trip.Rocket
-          ///
-          /// Parent Type: `Rocket`
-          struct Rocket: Heroku.SelectionSet {
-            let __data: DataDict
-            init(_dataDict: DataDict) { __data = _dataDict }
+          typealias Mission = Trips.Mission
 
-            static var __parentType: any ApolloAPI.ParentType { Heroku.Objects.Rocket }
-            static var __selections: [ApolloAPI.Selection] { [
-              .field("__typename", String.self),
-              .field("id", Heroku.ID.self),
-              .field("name", String?.self),
-              .field("type", String?.self),
-            ] }
-
-            var id: Heroku.ID { __data["id"] }
-            var name: String? { __data["name"] }
-            var type: String? { __data["type"] }
-          }
+          typealias Rocket = Trips.Rocket
         }
       }
 
@@ -166,12 +136,18 @@ extension Heroku {
             static var __parentType: any ApolloAPI.ParentType { Heroku.Objects.Mission }
             static var __selections: [ApolloAPI.Selection] { [
               .field("__typename", String.self),
-              .field("missionPatch", String?.self),
-              .field("name", String?.self),
+              .fragment(Missions.self),
             ] }
 
             var missionPatch: String? { __data["missionPatch"] }
             var name: String? { __data["name"] }
+
+            struct Fragments: FragmentContainer {
+              let __data: DataDict
+              init(_dataDict: DataDict) { __data = _dataDict }
+
+              var missions: Missions { _toFragment() }
+            }
           }
 
           /// Launches.Launch.Rocket
@@ -184,14 +160,19 @@ extension Heroku {
             static var __parentType: any ApolloAPI.ParentType { Heroku.Objects.Rocket }
             static var __selections: [ApolloAPI.Selection] { [
               .field("__typename", String.self),
-              .field("id", Heroku.ID.self),
-              .field("name", String?.self),
-              .field("type", String?.self),
+              .fragment(SmallRocker.self),
             ] }
 
             var id: Heroku.ID { __data["id"] }
             var name: String? { __data["name"] }
             var type: String? { __data["type"] }
+
+            struct Fragments: FragmentContainer {
+              let __data: DataDict
+              init(_dataDict: DataDict) { __data = _dataDict }
+
+              var smallRocker: SmallRocker { _toFragment() }
+            }
           }
         }
       }

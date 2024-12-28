@@ -10,9 +10,9 @@ import Apollo
 
 final class StarWarsInformationViewModel:ObservableObject {
     
-    private(set) var filmsToDisplay: [Heroku.LaunchListQuery.Data.Launches] = []
+    private(set) var filmsToDisplay: [Heroku.ExampleQuery.Data.Launches] = []
     init() {
-        Network.shared.client.fetch(query: Heroku.LaunchListQuery()) { [weak self] result in
+        Network.shared.client.fetch(query: Heroku.ExampleQuery()) { [weak self] result in
             guard let self = self else {return }
             switch result{
                 
