@@ -32,8 +32,10 @@ extension Heroku {
       case "Launch": return Heroku.Objects.Launch
       case "LaunchConnection": return Heroku.Objects.LaunchConnection
       case "Mission": return Heroku.Objects.Mission
+      case "Mutation": return Heroku.Objects.Mutation
       case "Query": return Heroku.Objects.Query
       case "Rocket": return Heroku.Objects.Rocket
+      case "TripUpdateResponse": return Heroku.Objects.TripUpdateResponse
       case "User": return Heroku.Objects.User
       default: return nil
       }

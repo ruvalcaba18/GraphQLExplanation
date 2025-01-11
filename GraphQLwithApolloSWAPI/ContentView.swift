@@ -9,10 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @StateObject var viewModel: StarWarsInformationViewModel
+    @StateObject var viewModel: FullStackHerokuViewModel
     
     init() {
-        _viewModel = StateObject(wrappedValue: StarWarsInformationViewModel())
+        _viewModel = StateObject(wrappedValue: FullStackHerokuViewModel())
     }
     
     var body: some View {

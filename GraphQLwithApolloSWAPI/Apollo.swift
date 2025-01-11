@@ -11,5 +11,9 @@ final class Network {
     
     static let shared = Network()
     private(set) lazy var client = ApolloClient(url: URL(string:"https://apollo-fullstack-tutorial.herokuapp.com/graphql")!)
+    
+    func generateMutation() {
+        client.perform(mutation: <#T##GraphQLMutation#>)
+    }
 }
 

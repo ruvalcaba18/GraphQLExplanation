@@ -8,7 +8,7 @@
 import Foundation
 import Apollo
 
-final class StarWarsInformationViewModel:ObservableObject {
+final class FullStackHerokuViewModel:ObservableObject {
     
     private(set) var filmsToDisplay: [Heroku.ExampleQuery.Data.Launches.Launch?] = []
     
