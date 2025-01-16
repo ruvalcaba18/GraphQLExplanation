@@ -9,21 +9,44 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @StateObject var viewModel: FullStackHerokuViewModel
-    
-    init() {
-        _viewModel = StateObject(wrappedValue: FullStackHerokuViewModel())
+    @StateObject var viewModel = FullStackHerokuViewModel()
+   
+    @ViewBuilder private func ListRowLaunch(_ individualFilm: Heroku.ExampleQuery.Data.Launches.Launch?) -> some View {
+        
+        VStack{
+            
+            Text(individualFilm?.site ?? "")
+            
+            AsyncImage(url: URL(string: individualFilm?.mission?.missionPatch ?? "")) { image in
+                HStack {
+                    image
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                    Text(individualFilm?.mission?.name ?? "" )
+                }
+                .frame(width: 150, height: 150)
+            } placeholder: {
+                ProgressView()
+                    .background(.yellow)
+            }
+        }
     }
     
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            List{
+                ForEach(viewModel.filmsToDisplay,id: \.?.id ){ individualFilm in
+                    ListRowLaunch(individualFilm)
+                        .onTapGesture {
+                            viewModel.generateMutation(launchID: individualFilm?.id ?? "" )
+                        }
+                }
+            }
+            .frame(maxWidth: .infinity,maxHeight: .infinity)
         }
-        .padding()
-
+        .onAppear {
+            viewModel.fetchHerokuInformation()
+        }
     }
 }
 

@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2B18E2B22D0252CA0096950D /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 2B18E2B12D0252CA0096950D /* Apollo */; };
-		2B18E2B42D0252CA0096950D /* ApolloSQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 2B18E2B32D0252CA0096950D /* ApolloSQLite */; };
-		2B18E2B62D0252CA0096950D /* ApolloTestSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 2B18E2B52D0252CA0096950D /* ApolloTestSupport */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,9 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B18E2B62D0252CA0096950D /* ApolloTestSupport in Frameworks */,
 				2B18E2B22D0252CA0096950D /* Apollo in Frameworks */,
-				2B18E2B42D0252CA0096950D /* ApolloSQLite in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,8 +126,6 @@
 			name = GraphQLwithApolloSWAPI;
 			packageProductDependencies = (
 				2B18E2B12D0252CA0096950D /* Apollo */,
-				2B18E2B32D0252CA0096950D /* ApolloSQLite */,
-				2B18E2B52D0252CA0096950D /* ApolloTestSupport */,
 			);
 			productName = GraphQLwithApolloSWAPI;
 			productReference = 2B18E24E2D0246150096950D /* GraphQLwithApolloSWAPI.app */;
@@ -419,7 +413,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GraphQLwithApolloSWAPI/Preview Content\"";
-				DEVELOPMENT_TEAM = J58ZDFPQ77;
+				DEVELOPMENT_TEAM = DUBXDHF3SZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -448,7 +442,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GraphQLwithApolloSWAPI/Preview Content\"";
-				DEVELOPMENT_TEAM = J58ZDFPQ77;
+				DEVELOPMENT_TEAM = DUBXDHF3SZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -475,7 +469,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J58ZDFPQ77;
+				DEVELOPMENT_TEAM = DUBXDHF3SZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MARKETING_VERSION = 1.0;
@@ -494,7 +488,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J58ZDFPQ77;
+				DEVELOPMENT_TEAM = DUBXDHF3SZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MARKETING_VERSION = 1.0;
@@ -512,7 +506,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J58ZDFPQ77;
+				DEVELOPMENT_TEAM = DUBXDHF3SZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jael.GraphQLwithApolloSWAPIUITests;
@@ -529,7 +523,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J58ZDFPQ77;
+				DEVELOPMENT_TEAM = DUBXDHF3SZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jael.GraphQLwithApolloSWAPIUITests;
@@ -598,16 +592,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 2B18E2B02D0252CA0096950D /* XCRemoteSwiftPackageReference "apollo-ios" */;
 			productName = Apollo;
-		};
-		2B18E2B32D0252CA0096950D /* ApolloSQLite */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 2B18E2B02D0252CA0096950D /* XCRemoteSwiftPackageReference "apollo-ios" */;
-			productName = ApolloSQLite;
-		};
-		2B18E2B52D0252CA0096950D /* ApolloTestSupport */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 2B18E2B02D0252CA0096950D /* XCRemoteSwiftPackageReference "apollo-ios" */;
-			productName = ApolloTestSupport;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
