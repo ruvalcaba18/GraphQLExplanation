@@ -15,20 +15,34 @@ struct ContentView: View {
         
         VStack{
             
-            Text(individualFilm?.site ?? "")
+            Text("Mission site \(individualFilm?.site ?? "" )")
+                .font(.title)
             
             AsyncImage(url: URL(string: individualFilm?.mission?.missionPatch ?? "")) { image in
                 HStack {
                     image
                         .resizable()
                         .aspectRatio(contentMode: .fit)
-                    Text(individualFilm?.mission?.name ?? "" )
+                        .frame(width: 150,height: 150)
+                    
+                    VStack{
+                        Text("Mission name \(individualFilm?.mission?.name ?? "" ) ")
+                            .foregroundStyle(.teal)
+                        Text("Rocket name \(individualFilm?.rocket?.name ?? "" )")
+                            .foregroundStyle(.red)
+                        Text("Rocket type \(individualFilm?.rocket?.type ?? "" )")
+                            .foregroundStyle(.yellow)
+                        Text("Is Mission  Booket \(individualFilm?.isBooked ?? false )")
+                            .foregroundStyle(.green)
+                    }
                 }
-                .frame(width: 150, height: 150)
+                .frame(maxWidth: .infinity, minHeight: 200)
             } placeholder: {
                 ProgressView()
                     .background(.yellow)
             }
+            
+     
         }
     }
     
@@ -37,9 +51,16 @@ struct ContentView: View {
             List{
                 ForEach(viewModel.filmsToDisplay,id: \.?.id ){ individualFilm in
                     ListRowLaunch(individualFilm)
-                        .onTapGesture {
-                            viewModel.generateMutation(launchID: individualFilm?.id ?? "" )
-                        }
+                    .swipeActions(edge: .trailing, allowsFullSwipe: false){
+                        
+                        Button(role: .none) {
+                            viewModel.cancelTrip(launchID: individualFilm?.id ?? "" )
+                         } label: {
+                             Label("Cancel trip", systemImage: "trash.fill")
+                         }.tint(.yellow)
+                      
+                    }
+                       
                 }
             }
             .frame(maxWidth: .infinity,maxHeight: .infinity)

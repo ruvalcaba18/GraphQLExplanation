@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B18E2B22D0252CA0096950D /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 2B18E2B12D0252CA0096950D /* Apollo */; };
+		B220BEF82D3B53B90046C030 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = B220BEF72D3B53B90046C030 /* Apollo */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B18E2B22D0252CA0096950D /* Apollo in Frameworks */,
+				B220BEF82D3B53B90046C030 /* Apollo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +125,7 @@
 			);
 			name = GraphQLwithApolloSWAPI;
 			packageProductDependencies = (
-				2B18E2B12D0252CA0096950D /* Apollo */,
+				B220BEF72D3B53B90046C030 /* Apollo */,
 			);
 			productName = GraphQLwithApolloSWAPI;
 			productReference = 2B18E24E2D0246150096950D /* GraphQLwithApolloSWAPI.app */;
@@ -210,7 +210,7 @@
 			mainGroup = 2B18E2452D0246150096950D;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				2B18E2B02D0252CA0096950D /* XCRemoteSwiftPackageReference "apollo-ios" */,
+				B220BEF62D3B53B90046C030 /* XCRemoteSwiftPackageReference "apollo-ios" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2B18E24F2D0246150096950D /* Products */;
@@ -577,20 +577,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		2B18E2B02D0252CA0096950D /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+		B220BEF62D3B53B90046C030 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
 			requirement = {
-				kind = exactVersion;
-				version = 1.15.3;
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.16.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		2B18E2B12D0252CA0096950D /* Apollo */ = {
+		B220BEF72D3B53B90046C030 /* Apollo */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2B18E2B02D0252CA0096950D /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			package = B220BEF62D3B53B90046C030 /* XCRemoteSwiftPackageReference "apollo-ios" */;
 			productName = Apollo;
 		};
 /* End XCSwiftPackageProductDependency section */

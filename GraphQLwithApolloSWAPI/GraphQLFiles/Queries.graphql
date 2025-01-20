@@ -1,0 +1,54 @@
+
+
+fragment smallRocker on Rocket {
+         id
+        name
+        type
+}
+
+fragment missions on Mission {
+       missionPatch
+        name
+}
+
+fragment trips on Launch{
+      id
+      isBooked
+      mission {
+        ...missions
+      }
+      rocket {
+        ...smallRocker
+      }
+      site
+}
+
+query ExampleQuery {
+  
+  me {
+    email
+    id
+    profileImage
+    token
+    trips {
+      ...trips
+    }
+  }
+  launches {
+    hasMore
+    launches {
+      id
+      isBooked
+      mission {
+        ...missions
+      }
+      rocket {
+        ...smallRocker
+      }
+      site
+    }
+    cursor
+  }
+ 
+  totalTripsBooked
+}

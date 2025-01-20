@@ -11,7 +11,8 @@ import Apollo
 final class FullStackHerokuViewModel:ObservableObject {
     
     @Published private(set) var filmsToDisplay: [Heroku.ExampleQuery.Data.Launches.Launch?] = []
-    @Published var appAlert: AnyObject?
+    @Published private(set) var cancelTripMutationData: Heroku.CancelTripMutation.Data.CancelTrip? = Heroku.CancelTripMutation.Data.CancelTrip(_dataDict: DataDict.init(data: [:], fulfilledFragments: []))
+    @Published private(set) var bookTripMutationData: Heroku.BookTripsMutation.Data.BookTrips? = Heroku.BookTripsMutation.Data.BookTrips(_dataDict: DataDict.init(data: [:], fulfilledFragments: []))
     
         public func fetchHerokuInformation() {
             
@@ -38,15 +39,23 @@ final class FullStackHerokuViewModel:ObservableObject {
         }
     }
     
-    func generateMutation(launchID: Heroku.ID) {
+    func cancelTrip(launchID: Heroku.ID) {
         
-        Network.shared.client.perform(mutation: Heroku.CancelTripMutation(launchId: launchID, size: .some(.case(.small)))) { result in
+        Network.shared.client.perform(mutation: Heroku.CancelTripMutation(launchId: launchID, size: .some(.case(.small)))) { [weak self ] result in
             guard let data = try? result.get().data else {
                 return
             }
-            
-            print("Somethign to know ",data.__data._data)
-            print("Success mutation" ,data.cancelTrip)
+            switch result {
+                
+            case .success( let data):
+                let succes = data.data?.cancelTrip
+                print("Success mutation" ,succes)
+                self?.cancelTripMutationData = succes
+            case .failure(let error ):
+                print("errors \(error.localizedDescription)")
+            }
+           
         }
+      
     }
 }
