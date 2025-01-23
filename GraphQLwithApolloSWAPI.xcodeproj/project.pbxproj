@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B220BEF82D3B53B90046C030 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = B220BEF72D3B53B90046C030 /* Apollo */; };
+		B2B9D0F92D404DCD0085669E /* ApolloWebSocket in Frameworks */ = {isa = PBXBuildFile; productRef = B2B9D0F82D404DCD0085669E /* ApolloWebSocket */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B220BEF82D3B53B90046C030 /* Apollo in Frameworks */,
+				B2B9D0F92D404DCD0085669E /* ApolloWebSocket in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +128,7 @@
 			name = GraphQLwithApolloSWAPI;
 			packageProductDependencies = (
 				B220BEF72D3B53B90046C030 /* Apollo */,
+				B2B9D0F82D404DCD0085669E /* ApolloWebSocket */,
 			);
 			productName = GraphQLwithApolloSWAPI;
 			productReference = 2B18E24E2D0246150096950D /* GraphQLwithApolloSWAPI.app */;
@@ -592,6 +595,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = B220BEF62D3B53B90046C030 /* XCRemoteSwiftPackageReference "apollo-ios" */;
 			productName = Apollo;
+		};
+		B2B9D0F82D404DCD0085669E /* ApolloWebSocket */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B220BEF62D3B53B90046C030 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloWebSocket;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

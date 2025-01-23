@@ -56,14 +56,8 @@ mutation CancelTrip($launchId: ID!,$size: PatchSize) {
   }
 }
 
-mutation Login($email: String, $size: PatchSize) {
+mutation Login($email: String!) {
   login(email: $email) {
-    email
-    id
     token
-    profileImage
-    trips {
-      ...TripsFragment
-    }
   }
 }

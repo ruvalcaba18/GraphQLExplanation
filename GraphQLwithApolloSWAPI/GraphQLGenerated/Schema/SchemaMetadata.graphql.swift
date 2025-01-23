@@ -35,6 +35,7 @@ extension Heroku {
       case "Mutation": return Heroku.Objects.Mutation
       case "Query": return Heroku.Objects.Query
       case "Rocket": return Heroku.Objects.Rocket
+      case "Subscription": return Heroku.Objects.Subscription
       case "TripUpdateResponse": return Heroku.Objects.TripUpdateResponse
       case "User": return Heroku.Objects.User
       default: return nil

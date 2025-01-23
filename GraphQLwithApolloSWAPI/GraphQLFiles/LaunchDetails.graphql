@@ -1,0 +1,17 @@
+
+query LaunchDetails($launchId: ID!) {
+  launch(id: $launchId) {
+    isBooked
+    site
+    id
+    rocket {
+      name
+    }
+    mission {
+      missionPatch
+    }
+  }
+  me {
+    email
+  }
+}
