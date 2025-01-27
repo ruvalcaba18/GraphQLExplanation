@@ -10,9 +10,9 @@ import SwiftUI
 struct DetailView: View {
     
     @StateObject private var viewModel = DetailViewModel()
-    private var detailID: String? = ""
+    private var detailID: String = ""
     
-    init(detailID: String?) {
+    init(detailID: String) {
         self.detailID = detailID
     }
     
@@ -21,8 +21,6 @@ struct DetailView: View {
             
             Text("Mission site \(viewModel.launchDetails?.site ?? "")")
                 .font(.title)
-            Text("Mission id \(viewModel.launchDetails?.id ?? "")")
-                .font(.subheadline)
             
             AsyncImage(url: URL(string: viewModel.launchDetails?.mission?.missionPatch ?? "")) { image in
                 HStack {
@@ -32,7 +30,7 @@ struct DetailView: View {
                         .frame(width: 150, height: 150)
                     
                     VStack {
-                        Text("Mission name \(viewModel.launchDetails?.mission )")
+                        Text("Mission name \(viewModel.launchDetails?.mission?.name )")
                             .foregroundStyle(.teal)
                         Text("Rocket name \(viewModel.launchDetails?.rocket?.name ?? "")")
                             .foregroundStyle(.red)
@@ -48,15 +46,20 @@ struct DetailView: View {
                 ProgressView()
                     .background(.yellow)
             }
-            .onAppear {
+            .task {
                 viewModel.fetchDetails(launchID: detailID ?? "" )
             }
             
             Button {
-                <#code#>
+                viewModel.bookMission(launchID: self.detailID )
             } label: {
-                <#code#>
+                Label("Book a trip!", image: "airplane.arrival")
             }
+            .frame(maxWidth: .infinity,maxHeight: 50)
+            .background(.green)
+            .foregroundStyle(.black)
+            .cornerRadius(15)
+            .padding()
 
         }
     }

@@ -8,7 +8,7 @@ extension Heroku {
     static let operationName: String = "LaunchDetails"
     static let operationDocument: ApolloAPI.OperationDocument = .init(
       definition: .init(
-        #"query LaunchDetails($launchId: ID!) { launch(id: $launchId) { __typename isBooked site id rocket { __typename name } mission { __typename missionPatch } } me { __typename email } }"#
+        #"query LaunchDetails($launchId: ID!) { launch(id: $launchId) { __typename isBooked site id rocket { __typename name } mission { __typename missionPatch name } } me { __typename email } }"#
       ))
 
     public var launchId: ID
@@ -82,9 +82,11 @@ extension Heroku {
           static var __selections: [ApolloAPI.Selection] { [
             .field("__typename", String.self),
             .field("missionPatch", String?.self),
+            .field("name", String?.self),
           ] }
 
           var missionPatch: String? { __data["missionPatch"] }
+          var name: String? { __data["name"] }
         }
       }
 

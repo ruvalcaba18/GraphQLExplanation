@@ -103,15 +103,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "F3320F25-B9EA-495B-B856-F037A6278102"
-            shouldBeEnabled = "Yes"
+            uuid = "F0BACB92-2E40-4491-889C-CE2ED928D5F1"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GraphQLwithApolloSWAPI/DetailView/View/DetailView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
             landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>
@@ -119,47 +119,33 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "08698AE2-E1B6-4B49-AAFA-E8340FE4CFB9"
+            uuid = "C70FB2A4-C189-4D6B-AFD0-5C834BF527EE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GraphQLwithApolloSWAPI/DetailView/View/DetailView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6AE37481-F180-48EB-84C0-9E9E0ACAE0FC"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "GraphQLwithApolloSWAPI/DetailView/ViewModel/DetailViewModel.swift"
+            filePath = "GraphQLwithApolloSWAPI/DetailView/View/DetailView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "fetchDetails(launchID:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "08698AE2-E1B6-4B49-AAFA-E8340FE4CFB9 - 683f11ad0452171d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Apollo.GraphQLResult&lt;GraphQLwithApolloSWAPI.Heroku.LaunchDetailsQuery.Data&gt;, Swift.Error&gt;) -&gt; () in GraphQLwithApolloSWAPI.DetailViewModel.fetchDetails(launchID: Swift.String) -&gt; ()"
-                  moduleName = "GraphQLwithApolloSWAPI.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wizeline/Desktop/GraphQLExplanation/GraphQLwithApolloSWAPI/DetailView/ViewModel/DetailViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "23"
-                  endingLineNumber = "23">
-               </Location>
-               <Location
-                  uuid = "08698AE2-E1B6-4B49-AAFA-E8340FE4CFB9 - 683f11ad0452171d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Apollo.GraphQLResult&lt;GraphQLwithApolloSWAPI.Heroku.LaunchDetailsQuery.Data&gt;, Swift.Error&gt;) -&gt; () in GraphQLwithApolloSWAPI.DetailViewModel.fetchDetails(launchID: Swift.String) -&gt; ()"
-                  moduleName = "GraphQLwithApolloSWAPI.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wizeline/Desktop/GraphQLExplanation/GraphQLwithApolloSWAPI/DetailView/ViewModel/DetailViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "23"
-                  endingLineNumber = "23">
-               </Location>
-            </Locations>
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "body"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

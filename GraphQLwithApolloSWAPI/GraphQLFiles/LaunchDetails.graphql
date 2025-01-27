@@ -9,6 +9,7 @@ query LaunchDetails($launchId: ID!) {
     }
     mission {
       missionPatch
+      name
     }
   }
   me {

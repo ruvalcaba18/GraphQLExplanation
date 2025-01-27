@@ -7,7 +7,7 @@
 
 import Foundation
 
-final class DetailViewModel: ObservableObject {
+@MainActor final class DetailViewModel: ObservableObject {
     
     @Published private(set) var cancelTripMutationData: Heroku.CancelTripMutation.Data.CancelTrip? = Heroku.CancelTripMutation.Data.CancelTrip(_dataDict: DataDict.init(data: [:], fulfilledFragments: []) )
     @Published private(set) var bookTripMutationData: Heroku.BookTripsMutation.Data.BookTrips? = Heroku.BookTripsMutation.Data.BookTrips(_dataDict: DataDict.init(data: [:], fulfilledFragments: []))
@@ -17,11 +17,13 @@ final class DetailViewModel: ObservableObject {
     func fetchDetails(launchID: Heroku.ID) {
         Network.shared.client.fetch(query: Heroku.LaunchDetailsQuery(launchId: launchID)) { [weak self] result in
             
+            guard let self = self else { return }
+            
             switch result {
             case .success(let success):
                 
                 if let success = success.data?.launch {
-                    print("Success data for now in detail \(success)")
+                    self.launchDetails = success
                 }
                 
                 if let errors = success.errors {
